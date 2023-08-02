@@ -1,0 +1,61 @@
+#divition1{
+     border: 10px solid black;
+     background-color: aqua;
+     padding: 20px;
+     background-clip: border-box;
+}
+#divition2{
+    border: 10px solid black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: padding-box;
+}
+#divition3{
+    border: 10px solid black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip: content-box;
+}
+#divition4{
+    height: ;
+    border: 10px solid black;
+    background-image: url(pic2.jpg);
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-origin: border-box;
+}
+
+#divition5{
+    height: 300px;
+    border: 10px solid black;
+    background-image: url(pic.jpg),url(pic1.jpg),url(pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left,right,center;
+}
+#divition6{
+    height: 200px;
+    width: 200px;
+    border: 2px solid blue;
+
+}
+#divition6 p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+#divition7{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    margin: auto;
+}
+.child{
+    border: 5px dotted blue;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+
+}
